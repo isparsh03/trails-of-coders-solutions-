@@ -1,0 +1,7 @@
+fn main() {
+    let mut sequence = vec![];
+    for i in 0..20 {
+        sequence.push(i / 2);
+    }
+    println!("{:?}", sequence);
+}
